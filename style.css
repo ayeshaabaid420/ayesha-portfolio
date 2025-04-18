@@ -5,6 +5,14 @@ body {
   color: #000000;
   transition: 0.3s;
 }
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 20px;
+}
+
 
 body.dark {
   background-color: #0a0e2a;
