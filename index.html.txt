@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ayesha Abid – Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <button class="mode-toggle">🌙</button>
+
+    <header>
+      <img src="images/ayesha.jpg" alt="Ayesha Abid" class="profile-pic" />
+      <h1>Ayesha Abid</h1>
+      <p>Computer Systems Engineer – Pakistan</p>
+    </header>
+
+    <section class="contact">
+      <h2>Contact</h2>
+      <div class="icons">
+        <a href="tel:+923074060178" title="Call Me">📞 +92 307 4060178</a>
+        <a href="https://wa.me/923074060178" title="Message on WhatsApp" target="_blank">💬 WhatsApp</a>
+        <a href="mailto:ashiiabid.420@gmail.com" title="Email Me">✉️ ashiiabid.420@gmail.com</a>
+      </div>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <p>Bachelor of Engineering in Computer Systems</p>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li>Front-End Web Development</li>
+        <li>Machine Learning</li>
+        <li>Data Science</li>
+      </ul>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
