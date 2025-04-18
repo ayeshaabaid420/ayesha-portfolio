@@ -1,5 +1,4 @@
-const toggleBtn = document.querySelector(".mode-toggle");
-toggleBtn.addEventListener("click", () => {
+function toggleMode() {
   document.body.classList.toggle("dark");
-  toggleBtn.textContent = document.body.classList.contains("dark") ? "☀️" : "🌙";
-});
+  document.body.classList.toggle("light");
+}
