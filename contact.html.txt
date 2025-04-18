@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Ayesha Abid</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="light">
+  <header>
+    <nav>
+      <h1>Ayesha Abid</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="education.html">Education</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Contact Me</h2>
+    <p>📞 <a href="tel:+923074060178">+92 307 4060178</a></p>
+    <p>📧 <a href="mailto:ashiiabid.420@gmail.com">ashiiabid.420@gmail.com</a></p>
+    <p>💬 <a href="https://wa.me/923074060178" target="_blank">WhatsApp Me</a></p>
+
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </main>
+</body>
+</html>
