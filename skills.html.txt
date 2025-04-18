@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Skills | Ayesha Abid</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="light">
+  <header>
+    <nav>
+      <h1>Ayesha Abid</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li>Front-End Web Development (HTML, CSS, JavaScript)</li>
+      <li>Machine Learning (Python, scikit-learn)</li>
+      <li>Data Science (Pandas, NumPy, Matplotlib)</li>
+    </ul>
+  </main>
+</body>
+</html>
