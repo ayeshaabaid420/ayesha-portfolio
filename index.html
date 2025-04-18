@@ -1,45 +1,34 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ayesha Abid – Portfolio</title>
+  <title>Ayesha Abid | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
 </head>
-<body>
-  <div class="container">
-    <button class="mode-toggle">🌙</button>
-
-    <header>
-      <img src="ayesha.jpg" alt="Ayesha Abid" class="profile-pic" />
+<body class="light">
+  <header>
+    <nav>
       <h1>Ayesha Abid</h1>
-      <p>Computer Systems Engineer – Pakistan</p>
-    </header>
-
-    <section class="contact">
-      <h2>Contact</h2>
-      <div class="icons">
-        <a href="tel:+923074060178" title="Call Me">📞 +92 307 4060178</a>
-        <a href="https://wa.me/923074060178" title="Message on WhatsApp" target="_blank">💬 WhatsApp</a>
-        <a href="mailto:ashiiabid.420@gmail.com" title="Email Me">✉️ ashiiabid.420@gmail.com</a>
-      </div>
-    </section>
-
-    <section>
-      <h2>Education</h2>
-      <p>Bachelor of Engineering in Computer Systems</p>
-    </section>
-
-    <section>
-      <h2>Skills</h2>
       <ul>
-        <li>Front-End Web Development</li>
-        <li>Machine Learning</li>
-        <li>Data Science</li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><button onclick="toggleMode()">Toggle Mode</button></li>
       </ul>
-    </section>
-  </div>
+    </nav>
+  </header>
 
-  <script src="script.js"></script>
+  <main class="home">
+    <img src="ayesha.jpg" alt="Ayesha Abid" class="profile-pic" />
+    <h2>Computer Systems Engineer</h2>
+    <p>Front-End Developer | Machine Learning Enthusiast | Data Science Learner</p>
+    <div class="links">
+      <a href="contact.html">📞 Contact</a>
+      <a href="skills.html">💻 Skills</a>
+      <a href="education.html">🎓 Education</a>
+    </div>
+  </main>
 </body>
 </html>
