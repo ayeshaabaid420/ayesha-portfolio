@@ -1,65 +1,108 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background-color: #ffffff;
-  color: #000000;
-  transition: 0.3s;
+  background-color: #f4f4f4;
+  color: #333;
 }
-
-
-
 body.dark {
-  background-color: #0a0e2a;
-  color: #ffffff;
+  background-color: #0c1a2b;
+  color: #eee;
 }
-
-.container {
-  max-width: 600px;
-  margin: auto;
-  padding: 20px;
-  text-align: center;
+nav {
+  background-color: #1e2d3d;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
 }
-
-.profile-pic {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
-  display: block;
-  margin: 20px auto;
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
 }
-
-h1 {
-  color: #001f3f;
-  margin-bottom: 5px;
-}
-
-h2 {
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 5px;
-  margin-top: 30px;
-}
-
-.icons a {
-  display: block;
-  margin: 10px 0;
+nav a {
+  color: white;
   text-decoration: none;
-  color: #001f3f;
   font-weight: bold;
 }
-
-body.dark .icons a {
-  color: #ffffff;
+main {
+  padding: 40px;
+  text-align: center;
 }
-
-.mode-toggle {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  background: #001f3f;
+.profile-pic {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+.links a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background: navy;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.links a:hover {
+  background: #003366;
+}
+form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+input, textarea {
+  padding: 10px;
+  width: 80%;
+  max-width: 400px;
+}
+button {
+  padding: 10px 20px;
+  background-color: navy;
   color: white;
   border: none;
-  padding: 5px 10px;
-  border-radius: 20px;
+  border-radius: 5px;
   cursor: pointer;
 }
+button:hover {
+  background-color: #003366;
+}
+.skills-list {
+  list-style-type: square;
+  text-align: left;
+  max-width: 500px;
+  margin: 0 auto;
+  padding-left: 20px;
+}
+
+/* Toggle Styles */
+button:focus {
+  outline: none;
+}
+
+/* Education block */
+.education-block {
+  background: #e2e6ea;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 500px;
+}
+body.dark .education-block {
+  background: #1c2a3a;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
